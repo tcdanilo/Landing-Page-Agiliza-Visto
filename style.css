@@ -1,0 +1,104 @@
+ @import url(' https://fonts.cdnfonts.com/css/sf-pro-display ');
+
+                
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:#000C66;
+}
+
+header{
+font-family: "Sf Pro Display",sans-serif;
+
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: aliceblue;
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 1rem;
+flex-wrap: wrap;
+padding: .8rem;
+min-height: 50px;
+}
+.box-img-header{
+height: 100%;
+
+}
+.menu-img-logo-lateral-cabeçalho{
+max-height: 64px;
+width: 177px;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu-item-cabecalho{
+text-decoration: none;
+color: #000C66;
+}
+.menu-item-cabecalho:hover{
+    color: steelblue;
+    transition: .4s;
+}
+.box-btn-actions{
+    display: flex;
+}
+button{
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: .6px;
+    cursor: pointer;
+    transition: .4s;
+}
+.btn-action-header{
+    font-family: "Sf Pro Display",serif;
+    background-color: crimson;
+    border-radius: 6px;
+    border: 0px;
+    color: aliceblue;
+}
+.btn-action-header:hover{
+    background-color: orangered;
+    transition: .4s;
+    border: 0.5px solid orangered;
+}
+.conteudo{
+    border-top: 0.4px solid #000C66;
+    margin-bottom: 48px;
+}
+
+.conteudo-first-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-first-section-inicio{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+
+.conteudo-first-section-inicio-titulo{
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.conteudo-first-section-inicio-titulo-box{
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+

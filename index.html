@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <script src="https://kit.fontawesome.com/71b5ebe5a8.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agiliza Vistos</title>
+    <title>Agiliza Visto</title>
     <link rel="stylesheet" href="style.css">
     
 
@@ -13,122 +13,178 @@
 <body>
     <header>
         <div class ="box-img-header">
-            <img src="./img/perfilLOGO-LATERAL.webp" alt="logo agiliza vistos">
-        <nav>
-            <a href="#">Início</a>
-            <a href="#">Serviços</a>
-            <a href="#">Nossos Clientes</a>
-            <a href="#">Equipe</a>
-            <a href="#">Contato</a>
+            <a href="#nav-inicio"><img class="menu-img-logo-lateral-cabeçalho" src="./img/perfilLOGO-LATERAL.webp" alt="logo agiliza vistos"></a>
+        </div>
+        <nav id="nav-inicio">
+            <a class="menu-item-cabecalho" href="#Inicio">Início</a>
+            <a class="menu-item-cabecalho" href="#NossosServicos">Serviços</a>
+            <a class="menu-item-cabecalho" href="#OqueNossosClientesFalam">Clientes</a>
+            <a class="menu-item-cabecalho" href="#NossaEquipe">Equipe</a>
+            <a class="menu-item-cabecalho" href="#Contato">Contato</a>
 
         </nav>
         </div>
         <div class="box-btn-actions">
-            <button class="btn-action" >Agilizar visto agora!</button>
+            <button class="btn-action-header" >Agilizar visto agora!</button>
         </div>
     </header>
-    <main>
-        <section id="Inicio" class="first-section">
-            <div>
-                <h1>Você é Brasileiro, e quer tirar o <br> <strong>VISTO AMERICANO RÁPIDO?</strong>
-                </h1>
-                <ul>
+
+
+    <main class="conteudo">
+        
+        <section id="Inicio" class="conteudo-first-section">
+            <div class="conteudo-first-section-inicio">
+                <h1 class="conteudo-first-section-inicio-titulo">Você é Brasileiro, e quer tirar o </h1>
+                <h1 class="conteudo-first-section-inicio-titulo-box"><strong>VISTO AMERICANO RÁPIDO?</strong></h1>
+                <ul class="conteudo-first-section-inicio-lista">
                     
-                    <li class="item">Aproveite o seu tempo, resolvemos toda a burocracia do visto americano com eficiência para você.</li>
+                    <li class="conteudo-first-section-inicio-lista-item">Aproveite o seu tempo, resolvemos toda a burocracia do visto americano com eficiência para você.</li>
                     </li>
-                    <li class="item">DS-160 feita por especialistas, treinamento com profissionais experientes e fila de alta prioridade para sua entrevista.</li>
-                    <li class="item">Já conseguimos Vistos americano de turista em tempo recorde. Não espere um (1) ano para sua entrevista, AGILIZE!</li>
+                    <li class="conteudo-first-section-inicio-lista-item">DS-160 feita por especialistas, treinamento com profissionais experientes e fila de alta prioridade para sua entrevista.</li>
+                    <li class="conteudo-first-section-inicio-lista-item">Já conseguimos Vistos americano de turista em tempo recorde. Não espere um (1) ano para sua entrevista, AGILIZE!</li>
                 </ul>
 
             </div>
-            <div class="box-img-main">
-                <img class="img-mulher" src="img/imgmulhervisto.webp" alt="Imagem mulher com visto americano ">
-                <button class="btn-action"> <strong>Quero agilizar o meu visto Americano agora!</strong>  </button>
+
+            <div class="conteudo-box-img">
+                <img  class="conteudo-box-img-mulher" src="img/imgmulhervisto.webp" alt="Imagem mulher com visto americano ">
+                <button class="btn-action-agilizar"> <strong>Quero agilizar o meu visto Americano agora!</strong>  </button>
             </div>
 
         </section>
-        <section id="NossosServicos"class="second-section">
-                <div class="info-servicos">
-                    <h2 class="info-servicos-title">Agilizamento de Entrevista</h2>
-                    <ul>
-                        <li>Garantia de vaga em até 180 dias.</li>
-                        <li>Monitoramento contínuo até o fim do processo.</li>
-                        <li>Fila de alta prioridade para a entrevista.</li>
+
+
+        <section id="NossosServicos"class="conteudo-second-section">
+                <div class="conteudo-second-section-info-servicos">
+                    <h2 class="conteudo-second-section-info-servicos-title">Agilizamento de Entrevista</h2>
+                    <ul class="conteudo-second-section-info-servicos-lista">
+                        <li class="conteudo-second-section-info-servicos-lista-item">Garantia de vaga em até 180 dias.</li>
+                        <li class="conteudo-second-section-info-servicos-lista-item">Monitoramento contínuo até o fim do processo.</li>
+                        <li class="conteudo-second-section-info-servicos-lista-item">Fila de alta prioridade para a entrevista.</li>
                         <button class="btn-action"> <i class="fa-solid fa-timer"></i>Quero agilizar minha entrevista!</button>
                     </ul>
                 </div>
-                <div class="info-servicos">
-                    <h2 class="info-servicos-title">Assesoria de Visto Americano</h2>
-                    <ul>
-                        <li>Preenchimento correto da DS-160.</li>
-                        <li>Impressão do boleto e documentos necessários.</li>
-                        <li>Instruções e suporte durante todo o processo.</li>
+                <div class="conteudo-second-section-info-servicos">
+                    <h2 class="conteudo-second-section-info-servicos-title">Assesoria de Visto Americano</h2>
+                    <ul class="conteudo-second-section-info-servicos-lista" >
+                        <li class="conteudo-second-section-info-servicos-lista-item">Preenchimento correto da DS-160.</li>
+                        <li class="conteudo-second-section-info-servicos-lista-item">Impressão do boleto e documentos necessários.</li>
+                        <li class="conteudo-second-section-info-servicos-lista-item">Instruções e suporte durante todo o processo.</li>
                         <button class="btn-action">Quero agilizar meu Visto Americano!</button>
                     </ul>
                 </div>
-                <div class="info-servicos">
-                    <h2 class="info-servicos-title">Assesoria de Passaporte</h2>
-                    <ul>
-                        <li>Preenchimento do formulário eletrônico.</li>
-                        <li>impressão da taxa do Governo.</li>
-                        <li>Instruções o processo e data do atendimento.</li>
+                <div class="conteudo-second-section-info-servicos">
+                    <h2 class="conteudo-second-section-info-servicos-title">Assesoria de Passaporte</h2>
+                    <ul class="conteudo-second-section-info-servicos-lista">
+                        <li class="conteudo-second-section-info-servicos-lista-item">Preenchimento do formulário eletrônico.</li>
+                        <li class="conteudo-second-section-info-servicos-lista-item">impressão da taxa do Governo.</li>
+                        <li class="conteudo-second-section-info-servicos-lista-item">Instruções o processo e data do atendimento.</li>
                         <button class="btn-action">Quero solicitar meu passaporte!</button>
                     </ul>
                 </div>
 
 
         </section>
-        <section id="OqueNossosClientesFalam" class="third-section">
-                <h2>O que Nossos Clientes Falam</h2>
-                <ul>
-                    <li>
+        <section id="OqueNossosClientesFalam" class="conteudo-third-section">
+                <h2 class="conteudo-third-section-title">O que Nossos Clientes Falam</h2>
+                <ul class="conteudo-third-section-list">
+                    <li class="conteudo-third-section-list-item">
                        <img src="https://www.agilizavisto.com/wp-content/uploads/2023/01/post46.1.webp" alt="depoimento clientes">
                     </li>
-                    <li>
+                    <li class="conteudo-third-section-list-item">
                         <img src="https://www.agilizavisto.com/wp-content/uploads/2023/01/post314.2.webp" alt="depoimento clientes 2">
                     </li>
-                    <li>
+                    <li class="conteudo-third-section-list-item">
                         <img src="https://www.agilizavisto.com/wp-content/uploads/2023/01/post313.2.webp" alt="depoimento clientes 3">
                     </li>
                 </ul>
         </section>
-        <section id="NossaEquipe" class="fourth-section">
+        <section id="DicasForms" class="conteudo-fourth-section">
+            <form class="conteudo-fourth-section-form" action="" method="post">
+                <div class="conteudo-fourth-section-form-title">
+                    <h3>Que tal receber DICAS + CHECK-LIST de documentos?</h3>
+                    <p>Responda o questionário abaixo:</p>
+                </div>
+                <div class="conteudo-fourth-section-form-nome">
+                    <label for="nome">Como você se chama? : </label>
+                    <input type="text" id="nome" />
+                </div>
+                <div class="conteudo-fourth-section-form-tel">
+                    <label for="celular">Qual seu numero de telefone? : </label>
+                    <input type="tel" id="celular" />
+                </div>
+                <div>
+                    <button class="btn-action" type="submit">Enviar</button>
+                </div>
+               
+            </form>
+            
+    </section>
+        <section id="NossaEquipe" class="conteudo-fifth-section">
            
-            <h2>Nossa Equipe</h2>
+            <h2 class="conteudo-fifth-section-title">Nossa Equipe</h2>
            
-            <ul class="Equipe-list">
-                <li>
-                    <img src="/img/gabriel.jpeg" alt="Gabriel Senna CEO">
-                    <h3>Gabriel Senna</h3>
-                    <h4>CEO</h4>
+            <ul class="conteudo-fifth-section-equipe-list">
+                <li class="conteudo-fifth-section-equipe-list-item">
+                    <img class="conteudo-fifth-section-equipe-list-item-img" src="/img/gabriel.jpeg" alt="Gabriel Senna CEO">
+                    <h3 class="conteudo-fifth-section-equipe-list-item-img-desc">Gabriel Senna</h3>
+                    <h4 class="conteudo-fifth-section-equipe-list-item-img-desc-cargo">CEO</h4>
                     
                 </li>
                
                 <li>
-                    <img src="/img/kalebe.jpeg" alt="Kallebe ">
-                    <h3>Kallebe</h3>
-                    <h4>Diretor de marketing</h4>
+                    <img class="conteudo-fifth-section-equipe-list-item-img" src="/img/kalebe.jpeg" alt="Kallebe ">
+                    <h3 class="conteudo-fifth-section-equipe-list-item-img-desc">Kallebe</h3>
+                    <h4 class="conteudo-fifth-section-equipe-list-item-img-desc-cargo">Diretor de marketing</h4>
                 </li>
                
                 <li>
-                    <img src="/img/bianca.jpeg" alt="bianca">
-                    <h3>Bianca</h3>
-                    <h4>Diretora de atendimento</h4>
+                    <img class="conteudo-fifth-section-equipe-list-item-img" src="/img/bianca.jpeg" alt="bianca">
+                    <h3 class="conteudo-fifth-section-equipe-list-item-img-desc">Bianca</h3>
+                    <h4 class="conteudo-fifth-section-equipe-list-item-img-desc-cargo">Diretora de atendimento</h4>
                 </li>
             </ul>
 
         </section>
-        <section id="Contato" class="fifth-section">
+        <section id="Contato" class="conteudo-sixth-section">
+            <img class="conteudo-sixth-section-img-logo" src="/img/perfillogo.webp" alt="logo agiliza vistos">
+            <h3 class="conteudo-sixth-section-title">Atendimento</h3>
+            <ul class="conteudo-sixth-section-list">
+                <li class="conteudo-sixth-section-list-item">+55 (61) 99601-1975</li>
+                <li class="conteudo-sixth-section-list-item">+55 (61) 99964-7584</li>
+                <li class="conteudo-sixth-section-list-item"> contato@agilizavisto.com</li>
+                <li class="conteudo-sixth-section-list-item">Atendemos todo o Brasil</li>
+                <button class="btn-action">Fale Conosco!</button>
+                <p class="conteudo-sixth-section-list-item-paragrafo">Política de privacidade - Política de Reembolso</p>
+                
+            </ul>
+
 
         </section>
 
-        
-
-
 
     </main>
-    <footer>
-
+   
+    <footer class="rodape" >
+        <div class="rodape-texto">
+            <h3 class="rodape-texto-subtitulo">© 2022 Agiliza Visto. Todos os direito reservados.</h3>
+            <h3 class="rodape-texto-subtitulo"> CNPJ: 36.998.632/0001-33</h3>
+        </div>
+        <div class="rodape-img">
+            <a class="rodape-img-insta" target="_blank"
+             href="https://www.instagram.com/agilizavisto/">
+             <i class="fa-brands fa-instagram" style="color: #000;"></i>
+            </a>
+            <a class="rodape-img-face" target="_blank" 
+             href="https://www.facebook.com/profile.php?id=100086142348849">
+             <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="rodape-img-tiktok" target="_blank" 
+             href="https://www.tiktok.com/@agilizavisto?is_from_webapp=1&sender_device=pc">
+             <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </div>
+       
     </footer>    
 </body>
 <script src="main.js" ></script>
