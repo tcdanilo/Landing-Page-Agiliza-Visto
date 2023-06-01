@@ -130,8 +130,10 @@ strong{
     border-radius: 6px;
 }
 
-.conteudo-first-section-inicio-lista{
-    color: #ffffff;
+.conteudo-first-section-inicio-lista-item {
+   padding-bottom: 50px;
+   align-items: center;
+   color: #ffffff;
     font-family: "SF Pro Display", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -139,10 +141,6 @@ strong{
     list-style: none;
     margin-left: 30px;
     
-}
-.conteudo-first-section-inicio-lista-item {
-   padding-bottom: 50px;
-   align-items: center;
    
 }
 
