@@ -15,7 +15,7 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-background-color: aliceblue;
+background-color: #f0f8ff;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -29,7 +29,7 @@ min-height: 50px;
 height: 100%;
 
 }
-.menu-img-logo-lateral-cabeçalho{
+.menu-img-logo-lateral-cabecalho{
 max-height: 64px;
 width: 177px;
 }
@@ -45,7 +45,7 @@ text-decoration: none;
 color: #000C66;
 }
 .menu-item-cabecalho:hover{
-    color: steelblue;
+    color: #4682b4;
     transition: .4s;
 }
 .box-btn-actions{
@@ -60,15 +60,15 @@ button{
 }
 .btn-action-header{
     font-family: "Sf Pro Display",serif;
-    background-color: crimson;
+    background-color: #dc143c;
     border-radius: 6px;
     border: 0px;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 .btn-action-header:hover{
-    background-color: orangered;
+    background-color: #ff4500;
     transition: .4s;
-    border: 0.5px solid orangered;
+    border: 0.5px solid #ff4500;
 }
 .conteudo{
     border-top: 0.4px solid #000C66;
@@ -104,7 +104,7 @@ button{
     font-weight: 400;
     font-size: 35px;
     
-    color: white;
+    color: #ffffff;
     padding: 20px;
     line-height: -50px;
 
@@ -118,13 +118,13 @@ strong{
     font-weight: 400;
     font-size: 35px;
     padding: .1rem;
-    color: white;
-    background-color: crimson;
+    color: #ffffff;
+    background-color: #dc143c;
     border-radius: 6px;
 }
 
 .conteudo-first-section-inicio-lista{
-    color: white;
+    color: #ffffff;
     font-family: "SF Pro Display", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -148,14 +148,14 @@ strong{
     font-weight: 400;
     font-size: 26px;
     padding: .4rem;
-    color: white;
-    background-color: crimson;
+    color: #ffffff;
+    background-color: #dc143c;
     border-radius: 6px;
 }
 .btn-action-agilizar:hover{
-    background-color: orangered;
+    background-color: #ff4500;
     transition: .4s;
-    border: 0.5px solid orangered;
+    border: 0.5px solid #ff4500;
 }
 
 
