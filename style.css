@@ -81,10 +81,11 @@ button{
     align-items: center;
     justify-content: space-evenly;
     background-color:#000C66;
-    width: auto;
+    width: 100vw;
     height: 850px;
     gap: 150px;
     align-content: center;
+
     
 
 }
