@@ -2,19 +2,15 @@
 
                 
 
-* {
+ * {
     margin: 0;
     padding: 0;
-
 }
 
-body{
-    background-color:#000C66;
-}
+
 
 header{
 font-family: "Sf Pro Display",sans-serif;
-
 position: fixed;
 top: 0;
 left: 0;
@@ -28,6 +24,7 @@ flex-wrap: wrap;
 padding: .8rem;
 min-height: 50px;
 }
+
 .box-img-header{
 height: 100%;
 
@@ -82,23 +79,95 @@ button{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color:#000C66;
+    width: auto;
+    height: 850px;
+    gap: 150px;
+    align-content: center;
+    
+
 }
 .conteudo-first-section-inicio{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    
     
 }
 
 .conteudo-first-section-inicio-titulo{
+    
     font-family: "SF Pro Display", sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 35px;
+    
+    color: white;
+    padding: 20px;
+    line-height: -50px;
+
+   
+    
+    
 }
-.conteudo-first-section-inicio-titulo-box{
+
+strong{
     font-family: "SF Pro Display", sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 35px;
+    padding: .1rem;
+    color: white;
+    background-color: crimson;
+    border-radius: 6px;
+}
+
+.conteudo-first-section-inicio-lista{
+    color: white;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+    list-style: none;
+    margin-left: 30px;
+    
+}
+.conteudo-first-section-inicio-lista-item {
+   padding-bottom: 50px;
+   align-items: center;
+   
+}
+
+
+
+
+
+.btn-action-agilizar{
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    padding: .4rem;
+    color: white;
+    background-color: crimson;
+    border-radius: 6px;
+}
+.btn-action-agilizar:hover{
+    background-color: orangered;
+    transition: .4s;
+    border: 0.5px solid orangered;
+}
+
+
+    
+
+.conteudo-box-img-passport{
+    width: 80%;
+    margin-bottom: 150px;
+    margin-right: 200px;
+    
+   
+   
+
 }
 
