@@ -66,7 +66,7 @@ button{
     color: #f0f8ff;
 }
 .btn-action-header:hover{
-    background-color: #ff4500;
+    background-color:#ff4500;
     transition: .4s;
     border: 0.5px solid #ff4500;
 }
@@ -85,6 +85,7 @@ button{
     height: 850px;
     gap: 150px;
     align-content: center;
+   
 
     
 
@@ -94,7 +95,7 @@ button{
     flex-direction: column;
     gap: 20px;
     margin-bottom: 30px;
-    margin-left: 100px;
+    margin-left: 40px;
     
     
 }
@@ -108,7 +109,7 @@ button{
     color: #ffffff;
     padding: 20px;
     line-height: -50px;
-
+    letter-spacing: 3px;
    
     
     
@@ -146,7 +147,7 @@ strong{
 
 .btn-action-agilizar{
     font-family: "SF Pro Display", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 26px;
     padding: .4rem;
     color: #ffffff;
