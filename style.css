@@ -7,6 +7,15 @@
     padding: 0;
     
 }
+h1{
+    text-align: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    align-items: center;
+    color: #dc143c;
+    
+}
 
 
 
@@ -143,6 +152,14 @@ strong{
 .conteudo-first-section-inicio-lista-item {
    padding-bottom: 50px;
    align-items: center;
+   color: #ffffff;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+    list-style: none;
+    margin-left: 30px;
+    
    
 }
 
@@ -180,57 +197,86 @@ strong{
 .conteudo-second-section{
     background-color: #f0f8ff;
     display: flex;
+    flex-direction: row;
     gap: 30px;
-    width: 100%;
-    height: 400px;
-    border-bottom: 0.4px solid #f0f8ff;
+    width: 100vw;
+    height: auto;
+    border-bottom: 1px solid #020627;
+    justify-content: center;
+   
+
     
 }
 
-.conteudo-second-section  h1 {
-    margin-top: 150px;
-    margin-left: 30px;
-    font-family: "SF Pro Display", sans-serif;
-    font-weight: 600;
-    font-size: 35px;
+
+.conteudo-second-section-info-icons{
+    
     align-items: center;
-    color: #dc143c;
+    display: flex;
+    flex-direction: column;
     
+   
+   
+  
+   
+}
 
+.img-list-icon{
+    height: 90px;
+    width: 100px;
     
-
+    
+}
+.conteudo-second-section-info-servicos{
+  margin-top: 20px;
+ 
+  
 
 }
 
-
-
-
-.conteudo-second-section > .conteudo-second-section-info-servicos{
-   margin-top: 100px;
-    width: 340px;
-   height: 180px;
-   background-color: #000C66;
-   padding: 24px;
-   color: #ffffff;
-   border-radius: 6px;
-   
-
-   
+.conteudo-second-section-info-servicos-title-first{
+    background-color: #f0f8ff;
 }
 .conteudo-second-section-info-servicos-title{
-    font-family: "SF Pro Display", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    margin-left: 40px;
-    padding-bottom: 30px;
+
+    padding: .2rem;
+    text-align: center;
+    background-color: #dc143c;
+    color: #ffffff;
+}
+.conteudo-second-section-info-servicos-lista-item{
+padding: 5px;
+text-align: center;
 }
 
-.conteudo-second-section-info-servicos-lista{
-    
-    font-family: "SF Pro Display", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    margin-left: 40px;
+.conteudo-third-section{
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100vw;
+    height: auto;
+    border-bottom: 0.4px solid #f0f8ff;
+
+}
+.conteudo-third-section-title{
+   text-align: center;
+   margin-top: 70px;
+   font-family: "SF Pro Display", sans-serif;
+   font-weight: 600;
+   font-size: 35px;
+   align-items: center;
+   color: #dc143c;
+
+}
+.conteudo-third-section-list{
+    display: flex;
    
 }
+
+
+
+
+
+
 
