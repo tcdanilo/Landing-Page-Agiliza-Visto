@@ -374,6 +374,8 @@ flex-direction: row;
 justify-content: center;
 gap: 100px;
 margin-top: 50px;
+height: 350px;
+border-bottom: 2px solid #d0d0d0;
     
    
    
@@ -410,6 +412,19 @@ display: flex;
 flex-direction: column;
 font-weight: 800;
 font-family: "Sf Pro Display",serif;
+}
+
+.footer-1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-sixth-section{
+    
+}
+.conteudo-sixth-section-img-logo{
+    height: 300px;
 }
 
 
