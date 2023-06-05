@@ -375,7 +375,7 @@ justify-content: center;
 gap: 100px;
 margin-top: 50px;
 height: 350px;
-border-bottom: 2px solid #d0d0d0;
+
     
    
    
@@ -394,8 +394,8 @@ border-bottom: 2px solid #d0d0d0;
    
 }
 .span-name{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 .conteudo-fifth-section-equipe-list-item-img{
     text-align: center;
@@ -408,10 +408,10 @@ flex-direction: column;
     font-family: "Sf Pro Display",serif;
 }
 .conteudo-fifth-section-span{
-display: flex;
-flex-direction: column;
-font-weight: 800;
-font-family: "Sf Pro Display",serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    font-family: "Sf Pro Display",serif;
 }
 
 .footer-1{
@@ -419,12 +419,27 @@ font-family: "Sf Pro Display",serif;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    background-color: #f0f8ff;
 }
 .conteudo-sixth-section{
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
     
 }
 .conteudo-sixth-section-img-logo{
-    height: 300px;
+    height: 200px;
+}
+.conteudo-sixth-section-list{
+    list-style: none;
+}
+.conteudo-sixth-section-list-item-paragrafo{
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
 }
 
 
