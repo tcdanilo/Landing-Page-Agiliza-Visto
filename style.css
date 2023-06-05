@@ -276,6 +276,7 @@ flex-wrap: wrap;
    font-size: 35px;
    align-items: center;
    color: #dc143c;
+   padding: 20px;
    
   
 
@@ -443,8 +444,15 @@ height: 350px;
 }
 .rodape{
     background-color: #000C66;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
 }
-
+.rodape-texto{
+    padding: 10px;
+}
 
 
 
