@@ -322,11 +322,11 @@ width: 100vw;
 .all-form{
     border-radius: 10px;
     align-items: center;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     width: 400px;
     height: 300px;
-    
+
 }
 
 .conteudo-fourth-section-form-title{
@@ -342,9 +342,20 @@ p {
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
+    
 }
 .nome-form{
     
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cidade-form{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.estado-form{
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
